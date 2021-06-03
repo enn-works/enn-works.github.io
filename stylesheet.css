@@ -113,7 +113,7 @@ header {
 }
 
 .skill-wrapper {
-  height: 580px;
+  height: 800px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -263,7 +263,7 @@ footer {
   }
 
   .skill-wrapper {
-    height: 1700px;
+    height: 2500px;
   }
 
   .message-wrapper .btn {
