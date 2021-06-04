@@ -224,7 +224,7 @@ footer {
   }
 }
 
-@media all and (max-width: 750px) {
+@media all and (max-width: 768px) {
   .top-wrapper h1 {
     font-size: 32px;
   }
