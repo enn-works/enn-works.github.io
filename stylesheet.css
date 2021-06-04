@@ -172,6 +172,11 @@ header {
   box-shadow: 0px 2px #5f5d60;
 }
 
+.tag {
+  font-weight: bold;
+  color:blueviolet;
+}
+
 .message:active {
   position: relative;
   top: 7px;
