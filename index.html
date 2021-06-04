@@ -18,30 +18,23 @@
       </div>
       <span class="fa fa-bars menu-icon"></span>
       <div class="header-right">
-        <a href="https://enn-works.github.io">home</a>
-        <a href="#">skills</a>
-        <a href="#">projects</a>
-        <a href="#">contact</a>
+        <a href="index.html">home</a>
+        <a href="#skills">skills</a>
+        <a href="#projects">projects</a>
+        <a href="#contact">contact</a>
       </div>
     </div>
   </header>
   <div class="top-wrapper">
     <div class="container">
       <h1>enn-works</h1>
-      <p>岡山でフリーランスエンジニアをしています。<br>システム設計～保守まで幅広くサポートできるように努めています。<br>音楽やテニスが趣味ですが、休日は主に子供と遊んでいます。</p>
+      <p>岡山市でフリーランスエンジニアをしています。<br>システム設計～保守まで幅広くサポートできるように努めています。<br>音楽やテニスが趣味ですが、休日は主に子供と遊んでいます。</p>
     </div>
   </div>
-  <div class="skill-wrapper">
+  <div class="skill-wrapper" id="skills">
     <div class="container">
       <div class="heading">
         <h2>＜my skills＞</h2>
-        <p><b>Langage</b> - VB.NET / ASP.NET / VBA / BizRobo</p>
-        <p><b>Database</b> - Oracle / SQL Server</p>
-        <p><b>OS</b> - Windows / Solaris</p>
-        <p><b>Certification</b> - Interstage Certified Associate V10 / Python3エンジニア認定基礎</p>
-        <p><b>Process</b> - 基本設計 / 詳細設計 / プログラム設計 / プログラム開発 / テスト（単体・結合・サイクル） / 運用支援</p>
-        <p><b>Experience</b> - ～10人程度のリーダー経験 / 本稼働支援 / ツール開発</p>
-        <p><b>Studying</b> - Python / OutSystems</p>
       </div>
       <div class="skills">
         <div class="skill">
@@ -72,37 +65,50 @@
           </div>
           <p class="text-contents">Windows / Solaris</p>
         </div>
+        <br><br>
+        <div class="">
+          <h3>- detail -</h3>
+          <p><b>Langage</b> - VB.NET / ASP.NET / VBA / BizRobo</p>
+          <p><b>Database</b> - Oracle / SQL Server</p>
+          <p><b>OS</b> - Windows / Solaris</p>
+          <p><b>Certification</b> - Interstage Certified Associate V10 / Python3エンジニア認定基礎</p>
+          <p><b>Process</b> - 基本設計 / 詳細設計 / プログラム設計 / プログラム開発 / テスト（単体・結合・サイクル） / 運用支援</p>
+          <p><b>Experience</b> - ～10人程度のリーダー経験 / 本稼働支援 / ツール開発</p>
+          <p><b>Studying</b> - Python / OutSystems</p>
+        </div>
       </div>
       <div class="clear"></div>
     </div>
   </div>
-  <div class="message-wrapper">
+  <div class="message-wrapper" id="projects">
     <div class="container">
       <div class="heading">
         <h2>＜projects＞</h2>
         <h3><b>宿泊税システム構築</b></h3>
         <p>2019年10月～2021年3月</p>
-        <p>自治体の宿泊税導入に伴うシステム構築<br>基本設計から運用テスト<br>開発基盤の構築</p>
+        <p>自治体の宿泊税導入に伴うシステム構築<br>基本設計から運用テスト<br>開発の基盤ソリューションの構築</p>
+        <p class="tag">#VB.NET #Oracle #WindowsServer #Excel<br>#設計 #開発 #試験 #開発基盤構築 #SE</p>
         <br>
         <h3><b>某交通機関の作業計画システムのマイグレ</b></h3>
         <p>2020年4月～2021年7月</p>
-        <p>既存システムからのマイグレーションに伴う再設計作業<br>基本設計から詳細設計、レビュー実施等</p>
+        <p>既存システム（VBA）からのマイグレーションに伴う再設計作業<br>基本設計から詳細設計、レビュー実施等</p>
+        <p class="tag">#C# #Oralce #WindowsServer<br>#設計 #SE</p>
         <br>
         <h3><b>電話窓口システムのEOL対応</b></h3>
         <p>2020年10月～2021年4月</p>
-        <p>既存システムのクラウドセキュリティ対応<br>基本設計～詳細設計、レビュー実施等<br>オンプレミス → Azure</p>
+        <p>既存システム（オンプレミス）のEOLに伴うクラウド化対応<br>基本設計～詳細設計、レビュー実施等</p>
+        <p class="tag">#Java #SQLDatabase #MicrosoftAzure<br>#設計 #SE</p>
       </div>
-      <span class="btn message">More</span>
+      <a href="projects.html"><span class="btn message">More</span></a>
     </div>
   </div>
-  <div class="message-wrapper">
+  <div class="message-wrapper" id="contact">
     <div class="container">
       <div class="heading">
         <h2>＜contact＞</h2>
         <p>縁（えん）：ヤマグチダイキ</p>
-        <p>E-mail：oensystems#gmail.com（# → @）</p>
       </div>
-      <span class="btn message">send me</span>
+      <a href="mailto:oensystems&#64;gmail.com"><span class="btn message">send me</span></a>
     </div>
   </div>
   <footer>
@@ -112,7 +118,7 @@
         <p>縁（えん）</p>
         <a href="https://twitter.com/enn_works" class="btn twitter"><span class="fa fa-twitter"></span>Twitter</a>
       </div>
-    <p>2021© enn-works</p>
+      <p>2021© enn-works</p>
     </div>
   </footer>
 </body>
